@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Game Universe</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #111;
+    color: white;
+}
+
+nav {
+    background: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+}
+
+nav a:hover {
+    color: #00aaff;
+}
+
+header {
+    text-align: center;
+    padding: 65px 20px;
+    background: #1e1e1e;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    margin: 30px 0 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    padding: 25px;
+}
+
+.card {
+    background: #222;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: scale(1.04);
+}
+
+.card img {
+    width: 100%;
+    height: 190px;
+    object-fit: contain;
+    background: #292929;
+}
+
+.card h3 {
+    padding: 15px;
+}
+
+.card a {
+    display: block;
+    background: #0066ff;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.card a:hover {
+    background: #0099ff;
+}
+
+footer {
+    background: #222;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="Project101.html">Sonic</a>
+    <a href="Mario.html">Mario</a>
+    <a href="Zelda.html">Zelda</a>
+    <a href="Pokemon.html">Pokemon</a>
+    <a href="Kirby.html">Kirby</a>
+    <a href="Metroid.html">Metroid</a>
+    <a href="DonkeyKong.html">Donkey Kong</a>
+</nav>
+
+<header>
+    <h1> Welcome to Video Game Universe!</h1>
+
+    <p>
+        Explore some of the most popular video game franchises.
+        Check out their characters, games,and Pictures.
+        Choose your favorite gaming world below!
+    </p>
+</header>
+
+<h2>Explore the Game Galleries</h2>
+
+<div class="gallery">
+
+    <div class="card">
+        <img src="https://wallpaperaccess.com/full/2325107.jpg"
+        alt="Sonic">
+        <h3>Sonic the Hedgehog</h3>
+        <a href="Project101.html">Explore Sonic Games</a>
+    </div>
+
+    <div class="card">
+        <img src="https://www.smashbros.com/assets_v2/img/fighter/mario/main.png"
+        alt="Mario">
+        <h3>Super Mario</h3>
+        <a href="Mario.html">Explore Mario Games</a>
+    </div>
+
+    <div class="card">
+        <img src="https://www.smashbros.com/assets_v2/img/fighter/link/main.png"
+        alt="Link">
+        <h3>The Legend of Zelda</h3>
+        <a href="Zelda.html">Explore Zelda Games</a>
+    </div>
+
+    <div class="card">
+        <img src="https://www.smashbros.com/assets_v2/img/fighter/pikachu/main.png"
+        alt="Pikachu">
+        <h3>Pokemon</h3>
+        <a href="Pokemon.html">Explore Pokemon Games</a>
+    </div>
+
+    <div class="card">
+        <img src="https://www.smashbros.com/assets_v2/img/fighter/kirby/main.png"
+        alt="Kirby">
+        <h3>Kirby</h3>
+        <a href="Kirby.html">Explore Kirby Games</a>
+    </div>
+
+    <div class="card">
+        <img src="https://www.smashbros.com/assets_v2/img/fighter/samus/main.png"
+        alt="Samus">
+        <h3>Metroid</h3>
+        <a href="Metroid.html">Explore Metroid Games</a>
+    </div>
+
+    <div class="card">
+        <img src="https://www.smashbros.com/assets_v2/img/fighter/donkey_kong/main.png"
+        alt="Donkey Kong">
+        <h3>Donkey Kong</h3>
+        <a href="DonkeyKong.html">Explore Donkey Kong Games</a>
+    </div>
+
+</div>
+
+<footer>
+    <p>Video Game Universe © 2026</p>
+</footer>
+
+</body>
+</html>
